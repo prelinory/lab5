@@ -1,0 +1,47 @@
+<div>
+    <div>
+        <h1 class="header_lab_1">Лабораторная работа №5</h1>
+    </div>
+    <h2 class="header_lab_2">Внешняя сортировка</h2>
+    <h2 class="header_lab_3">Будем сортировать {{{count}}} сообщений из канала {{{data.name}}}!</h2>
+    
+</div>
+<div id="messages">
+	<div id="messageWS" class="messageWS" onclick="messageWS_click();"></div>
+</div>
+<div class="send_msg_block">
+    <div>
+        <label for="text_to_send">Тут можно набрать сообщение для отправки в консоль на сервере</label><br/><br/>
+        <input type="text" id="text_to_send" name="text_to_send" size="50" placeholder="Текст который отправится на консоль сервера" class="text_to_send"/>
+        <input type="button" class="send_button" value="Отправить" onclick="send_message($('#text_to_send')[0].value);"/>
+    </div>
+    <div class="orderset">
+        <fieldset>
+            <legend class="list_fields_label">Выберите поле для сортировки:</legend>
+            <div id="fields_list_insert_point">
+            </div>
+        </fieldset>
+    </div>
+    <div class="orderset">
+        <fieldset style="margin-bottom: 2em">
+            <legend class="list_fields_label">Порядок сортировки:</legend>
+            <div>
+                <div>
+                    <input type="radio" id="order_asc" name="orderDir" value="order_asc" class="list_fields_input" checked onclick="orderDesc=false;"/>
+                    <label for="order_asc" class="list_fields_label">По возрастанию</label>
+                    <input type="radio" id="order_desc" name="orderDir" value="order_desc" class="list_fields_input" onclick="orderDesc=true;"/>
+                    <label for="order_desc" class="list_fields_label">По убыванию</label>
+                </div>
+            </div>            
+        </fieldset>
+        <input type="button" class="send_button" value="Перемешать" id="btn_shuffle" onclick=""/>
+        <input type="button" class="send_button" value="Пересортировать" id="btn_sort" onclick=""/>
+    </div> 
+</div>
+<div class="page_wrap">
+	<div class="page_body chat_page">
+		<div class="history" id="items_insert_point" style="display:flow;">
+        </div> 
+    </div> 
+</div>
+  

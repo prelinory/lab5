@@ -1,0 +1,82 @@
+.send_button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px 1px #88C;
+    border-radius: 10px;
+    background-color: #D0E0FF;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.send_button:hover {
+    background-color: #E0E0FF;
+}
+
+.send_button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.send_msg_block {
+    margin-left: 50px;
+    font-size: 1.2em;
+    display: flex;
+}
+
+.text_to_send {
+    font-size: 1.2em;
+}
+
+.header_lab_1 {
+    margin-left:100px;
+    margin-top:20px;
+}
+
+.header_lab_2 {
+    margin-left:100px;
+    margin-top: 1em;
+}
+
+.header_lab_3 {
+    margin-left:100px;
+    margin-top: 0.5em;
+}
+
+.header_logo {
+    position:absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.header_logo_pic {
+    height: 100px;
+}
+
+.messageWS {
+	color: #606060;
+    background: linear-gradient(#E8E8E8, #FCFCFC);
+	padding: 5px 10px;
+	border : 1px solid #C0C0C0; 
+	border-spacing: 5px;
+	border-radius: 5px; 
+	visibility: hidden;
+	text-align: center;	
+	z-index: 10;
+	float:right;
+}
+
+.list_fields_label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.list_fields_input {
+    margin: 0.4rem;
+}
+
+.orderset {
+    margin-left: 3em;
+}
+
