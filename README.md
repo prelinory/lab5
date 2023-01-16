@@ -35,7 +35,6 @@
 
 
 #### Структура базы данных
-<img src="[path/to/screenshot.png](https://github.com/prelinory/course-work/blob/main/img/api.png)" width="500">
 ![хореография](https://github.com/prelinory/course-work/blob/main/img/api.png)
 
 
