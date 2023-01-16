@@ -34,9 +34,12 @@
 
 
 
-#### 
-![внешняясортировка](https://github.com/prelinory/lab5/blob/main/imggh/apisort.png)
+#### API сервера и хореография
+
 ![подключение](https://github.com/prelinory/lab5/blob/main/imggh/apiwb.png)
+
+![внешняясортировка](https://github.com/prelinory/lab5/blob/main/imggh/apisort.png)
+
 
 #### Алгоритм
 
