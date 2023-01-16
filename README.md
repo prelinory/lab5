@@ -41,6 +41,8 @@
 
 #### Алгоритм
 
-Алгоритм сортировки
+Алгоритм выбора параметров сортировки
 ![алгоритм](https://github.com/prelinory/lab5/blob/main/imggh/alg.png)
 
+Алгоритм сортировки
+![сортировка](https://github.com/prelinory/lab5/blob/main/imggh/algsort.png)
