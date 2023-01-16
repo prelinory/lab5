@@ -34,14 +34,14 @@
 
 
 
-#### Структура базы данных
-![хореография](https://github.com/prelinory/course-work/blob/main/img/api.png)
-
+#### 
+![внешняясортировка](https://github.com/prelinory/lab5/blob/main/imggh/apisort.png)
+![подключение](https://github.com/prelinory/lab5/blob/main/imggh/apiwb.png)
 
 #### Алгоритм
 
 Алгоритм выбора параметров сортировки
-![алгоритм](https://github.com/prelinory/lab5/blob/main/imggh/alg.jpg)
+![алгоритм](https://github.com/prelinory/lab5/blob/main/imggh/alg.png)
 
 Алгоритм сортировки
-![сортировка](https://github.com/prelinory/lab5/blob/main/imggh/algsort.jpg)
+![сортировка](https://github.com/prelinory/lab5/blob/main/imggh/algsort.png)
